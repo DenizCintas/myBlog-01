@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar start */
+
+/* navbar finsh */
+
+/* içerik start*/
+.color {
+  background-color: #4582ec;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content {
+  height: 100vh;
+  width: 1200px;
+  margin-left: 350px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  position: absolute;
+}
+.content img {
+ 
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+/* içerik finsh*/

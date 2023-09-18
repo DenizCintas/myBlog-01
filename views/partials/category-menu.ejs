@@ -1,0 +1,15 @@
+<div class="menü">
+ 
+    <ul>
+      <li>
+        <a href="/" >Tüm kategoriler</a>
+      </li>
+      <% categories.forEach(function(category) { %>
+      
+        <li>
+  
+        <a href="/blogs/category/<%= category.url %>"><%= category.name %></a>
+      </li>
+      <%}); %>
+    </ul>
+  </div> 
